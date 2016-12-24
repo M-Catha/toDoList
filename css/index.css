@@ -33,8 +33,13 @@ body {
 	border: 1px solid rgb(221, 221, 221);
 	padding:10px 20px 10px 20px;
 	width:100%;
-	font-family:'Roboto', sans-serif;	
-	font-size:3em;
+}
+
+#userInput, .toDo {
+	font-family:'Roboto', sans-serif;
+	font-size:3.5vmin;
+	white-space:nowrap;
+	overflow-x:auto;
 }
 
 #userInput:focus {
@@ -56,11 +61,6 @@ body {
 	width:10%;
 	transition:0.2s linear;
 	opacity:1.0;
-}
-
-.toDo {
-	font-family:'Roboto', sans-serif;
-	font-size:3em;
 }
 
 .toDoText {
