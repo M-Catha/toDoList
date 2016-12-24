@@ -16,16 +16,15 @@ body {
 .title {
 	padding-bottom:10px;
 	font-family:'Pacifico';
-	font-size:5em;
+	font-size:4em;
 	background-color:rgb(14, 79, 183);
 	border-radius:10px 10px 0px 0px;
 	text-align:center;
 	color:white;
 }
 
-.inputDiv {
-	margin:0 auto;
-	width:auto;
+.titleIcon {
+	float:right;
 }
 
 #userInput {
@@ -78,10 +77,6 @@ div.toDo:nth-child(odd) {
 
 div.toDo:nth-child(even) {
 	background-color:white;
-}
-
-div.toDo:last-child {
-	border-radius:0px 0px 10px 10px;
 }
 
 .crossOff {
