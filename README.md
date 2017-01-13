@@ -6,4 +6,4 @@ User can "cross-off" an item by clicking it or remove it via the trash can icon.
 
 Live demo here:
 
-[Code Pen](http://s.codepen.io/MCatha/debug/ObYRwQ)
+[Github Pages](https://m-catha.github.io/toDoList/)
